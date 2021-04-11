@@ -30,7 +30,7 @@
         class="jump"
         v-show="currentPage < pages"
         @click="goNext">Next</span>
-      <span class="jumppoint">跳转到：</span>
+      <span class="jumppoint">ページ移動：</span>
       <span class="jumpinp">
         <input type="text" v-model="changePage">
       </span>
